@@ -45,6 +45,11 @@ Step 6(If needed):
 ">git push origin main"
 -----------------------------------------------------------------------------------------------------------------------------
 
+Creating new branch in git 
 
-
+commands
+1. ">git branch" : to check on which branch it is currently present
+2. ">git checkout -b <-new branch name->" : to create new branch 
+3. ">git checkout <-branch name where we want to shift from current branch ->" : for shifting from one branch to another  
+4. ">git branch -d <-name of branch we want to delete ->": delete branch
 
