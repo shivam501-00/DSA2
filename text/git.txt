@@ -17,7 +17,7 @@ step 5: To Push these changes on github : ">git push origin <-branch name->"
 
 NOTE: say we gonna update every thing on main branch for every update on project then for push commnad we can use "got push -u origin main", this will help us while pushing next time as we don't have to write "origin main" we can just write "git push"
 -----------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+
  How to update branch name
 
  1. to update name of branch from 'master' to 'main' use command : ">git branch -M <-new name->"
