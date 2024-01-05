@@ -24,5 +24,28 @@ NOTE: say we gonna update every thing on main branch for every update on project
  2. to check if name is updated or not use command : ">git branch"
  
  NOTE:only after knowing exact name of branch we can do 'push' in that beanch using that branch name with command ">git push origin <-branch name->"
-okay
+-----------------------------------------------------------------------------------------------------------------------------
+how to update local repo from update that we made on remote repo?
+
+To update your local repository with changes from the remote repository, you'll typically use the git pull command. Here are the general steps:
+
+Step 1: open your local repo in terminal / oprn vs code terminal by opening that folder in which you have make changes in remote repo
+Step 2: Fetch changes from remote repo - Use the 'git fetch' command to fetch the changes from the remote repository:">git fetch origin" 
+This command fetches the changes from the "origin" remote repository and updates your local references to remote branches.
+Step 3: Merge Changes into Your Local Branch:
+After fetching changes, you can merge them into your local branch using the git merge command. If you're working on the "main" branch, for example:
+">git merge origin/main"
+NOTE : If you're working on a different branch, replace "main" with the name of your branch.
+// GIT PULL
+you can combine fetch and merge into one command using git pull:
+">git pull origin main"
+Step 5: commit merged changes 
+'> git commit -m "merging changes from remote to local"'
+Step 6(If needed): 
+">git push origin main"
+
+
+
+
+
 
