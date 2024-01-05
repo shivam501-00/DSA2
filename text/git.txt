@@ -53,3 +53,10 @@ commands
 3. ">git checkout <-branch name where we want to shift from current branch ->" : for shifting from one branch to another  
 4. ">git branch -d <-name of branch we want to delete ->": delete branch
 
+Ways to merge branch into main branch
+1. "git merge <branch name >" 
+
+Pull Request (PR)
+
+
+
