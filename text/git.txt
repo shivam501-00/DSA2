@@ -24,4 +24,5 @@ NOTE: say we gonna update every thing on main branch for every update on project
  2. to check if name is updated or not use command : ">git branch"
  
  NOTE:only after knowing exact name of branch we can do 'push' in that beanch using that branch name with command ">git push origin <-branch name->"
+okay
 
