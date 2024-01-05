@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "oops",
+            "request": "launch",
+            "mainClass": "code.oops",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
+            "name": "array_list",
+            "request": "launch",
+            "mainClass": "code.array_list",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
+            "name": "hashmap",
+            "request": "launch",
+            "mainClass": "code.hashmap",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
+            "name": "patterns",
+            "request": "launch",
+            "mainClass": "code.patterns",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
+            "name": "array_sort",
+            "request": "launch",
+            "mainClass": "code.array_sort",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
+            "name": "hashing",
+            "request": "launch",
+            "mainClass": "code.hashing",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "hashing",
+            "request": "launch",
+            "mainClass": "hashing",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
+            "name": "patterns",
+            "request": "launch",
+            "mainClass": "patterns",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
+            "name": "recursion",
+            "request": "launch",
+            "mainClass": "recursion",
+            "projectName": "DSA2_855f7aaf"
+        }
+    ]
+}

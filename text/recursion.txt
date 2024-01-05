@@ -1,0 +1,4 @@
+Recurtion : calling of function inside same function that means fuction calling itself is nothing but recursion 
+
+if there is no condition to stop calling of these fuction i.e for recursion then function will run infinite time and we will face stack over flow error. 
+Base condition- to stop stack overflow we add one condition which will eventually break loop when conditionbecomes true. That condition is called "Base condition"

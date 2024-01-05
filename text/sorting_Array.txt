@@ -1,0 +1,6 @@
+1. Selection Sort :
+- in this we just swap 0th index element of array with min value index. And make left side of array sorted and do same for remaining right sided unsorted array which will be one index less each time as left side get sorted 
+- [64,28,7,15,88,11]
+- here sixe of array n = 6
+- as define we need to check for min value in array and swap it with 0th index for step 1
+- say min value present at 0th index i.e. 64 and we need to find if other min value present in array and replace 0th element with it 

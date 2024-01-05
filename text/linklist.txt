@@ -1,0 +1,14 @@
+Linked List :
+- It is data structure which helps you increase the size and decrease the size of itself.
+- e.g. in array we can define size while declearing array but cant add or delete element in it as size of array is already define 
+In LinkedList We can add or remove element from structure
+- In array element are located at contigeous location in heap memory. contigeous meaning one by one/ back to back.
+In LinkedList element are stored in heap memory but not in contigeous pattern, they are saved at different memory location
+
+- structur of LinkedList:
+starting point of linked list is called head of LinkedList. There is one concept in LinkedList that storing memory location of next element in that element. 
+say head is stored at M1 location in memory it will also invisibly store meomery location of next element in it. so it will be easy to access
+
+- Where is it used?
+in most common data structure stack and queue
+in real life we use it in browser

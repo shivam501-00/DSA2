@@ -1,0 +1,16 @@
+What is time complexicity ?
+the rate at which time taken by proccess to run that code depending on different system configurationa and different input 
+
+Big O(n) notation
+3 rules for big O():
+- always compute timecomplexicity in case of worst case scenario.
+- avoid const 
+- avoid lower value
+
+What is space complexicity?
+its memory space that our program takes
+defination : auxilery space + input space
+auxilery space : the space that we take to solve problem 
+input space : sapce of input
+VVIMP: Never do anything to input data
+
