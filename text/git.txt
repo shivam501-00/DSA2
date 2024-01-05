@@ -10,5 +10,18 @@
 To Add localy created repo in github
 
 Step 1: add git in that loacal repo using ">git init"
-Step 2: Copy link of github repo/remote repo from git hub and use command ">git remote add origin <-link->"
+Step 2: create remote repo in github where you want to shift local repo
+Step 3: Copy link of github repo/remote repo from git hub and use command ">git remote add origin <-link->"
+Step 4: To check if origin is set or not use ">git remote -v"
+step 5: To Push these changes on github : ">git push origin <-branch name->"
+
+NOTE: say we gonna update every thing on main branch for every update on project then for push commnad we can use "got push -u origin main", this will help us while pushing next time as we don't have to write "origin main" we can just write "git push"
+
+-----------------------------------------------------------------------------------------------------------------------------
+ How to update branch name
+
+ 1. to update name of branch from 'master' to 'main' use command : ">git branch -M <-new name->"
+ 2. to check if name is updated or not use command : ">git branch"
  
+ NOTE:only after knowing exact name of branch we can do 'push' in that beanch using that branch name with command ">git push origin <-branch name->"
+
