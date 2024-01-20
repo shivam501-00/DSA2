@@ -5,3 +5,7 @@ Step 1: declare variable like low high and result array (initially{-1,-1}).
 Step 2: to write condition for not fount or null array. 
 
 Step 3: to assign lIndex and rIndex for first and last occurence respectively.
+
+Step 4: write code for firstoccurrence and lastOccurrence
+        - in both code find mid and compare it with target and according to its value decide which to update to low or high for first and last respectively 
+        - return result
