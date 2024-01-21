@@ -1,4 +1,4 @@
-package code;
+package code.sort;
 
 import java.util.Scanner;
 import java.util.ArrayList;

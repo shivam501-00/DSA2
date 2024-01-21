@@ -1,11 +1,13 @@
-package code;
+package code.datastructures;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-import code.sort;
+
+import code.datastructures.*;
+import code.sort.*;
 
 import javafx.collections.MapChangeListener;
 
