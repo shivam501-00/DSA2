@@ -1,3 +1,5 @@
+package code.Array_problem;
+
 import java.util.*;
 
 class solutionOc {
