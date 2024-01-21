@@ -83,6 +83,7 @@ public class occurence {
         int[] a = { 5, 7, 7, 8, 8, 10 };
         System.out.println(
                 "first and last index for given target are : " + Arrays.toString(solutionOc.firstandlast(a, 5)));
+
     }
 
 }

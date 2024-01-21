@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 import code.datastructures.*;
-import code.sort.*;
+import code.sort.array_sort;
 
 import javafx.collections.MapChangeListener;
 
@@ -32,9 +32,6 @@ public class hashing {
         }
         // test if array is saved or not
         System.out.println("This is array a :" + Arrays.toString(a));
-        sort.insertion_sort(a, n);
-        sort b = new sort();
-        b.bubble_sort(a, n);
 
         // precomputing
         // calling large_num() method from Pt class of patterns to find large num of

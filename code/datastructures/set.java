@@ -29,15 +29,22 @@ public class set {
         /*
          * Here while defining array we need to define it
          * datatype as "Integer" rather defining it as
-         * "int". So that the set "s1" in which we are adding
+         * "int". So that the set "set1" in which we are adding
          * all element should understand its data type and
          * arrays datatype is same
          */
 
-        Set<Integer> s1 = new HashSet<>();
-        s1.addAll(Arrays.asList(a));
-        System.out.println(s1);
-        Iterator newData = s1.iterator();
+        Set<Integer> set1 = new HashSet<>();
+        set1.addAll(Arrays.asList(a));
+        System.out.println(set1);
 
+        // creating array from given set
+        int n = set1.size();
+        int[] a1 = new int[n];
+        int i = 0;
+        for (Integer e : set1) {
+            a1[i++] = e;
+        }
+        System.out.println(Arrays.toString(a1));
     }
 }
