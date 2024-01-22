@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "shiftZero",
+            "request": "launch",
+            "mainClass": "code.Array_problem.shiftZero",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
             "name": "rotate_left",
             "request": "launch",
             "mainClass": "code.Array_problem.rotate_left",
