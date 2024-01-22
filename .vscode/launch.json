@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "second_largest",
+            "request": "launch",
+            "mainClass": "code.Array_problem.second_largest",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
             "name": "shiftZero",
             "request": "launch",
             "mainClass": "code.Array_problem.shiftZero",
