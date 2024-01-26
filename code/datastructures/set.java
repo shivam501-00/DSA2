@@ -26,6 +26,7 @@ public class set {
         System.out.println(s.size());
 
         Integer[] a = { 1, 1, 1, 2, 2, 2, 3, 4, 4, 5, 6, 6, 7, 7, 8 };
+        Integer[] a2 = { 1, 1, 1, 2, 2, 2, 3, 4, 4, 5, 6, 6, 7, 7, 8, 9, 44, 7, 6, 3, 7, 10, 11, 30, 16 };
         /*
          * Here while defining array we need to define it
          * datatype as "Integer" rather defining it as
@@ -36,6 +37,7 @@ public class set {
 
         Set<Integer> set1 = new HashSet<>();
         set1.addAll(Arrays.asList(a));
+        set1.addAll(Arrays.asList(a2));
         System.out.println(set1);
 
         // creating array from given set
@@ -43,8 +45,11 @@ public class set {
         int[] a1 = new int[n];
         int i = 0;
         for (Integer e : set1) {
-            a1[i++] = e;
+            a1[i] = e;
+            i++;
+
         }
         System.out.println(Arrays.toString(a1));
+
     }
 }

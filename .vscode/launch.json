@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Union_and_intersection",
+            "request": "launch",
+            "mainClass": "code.Array_problem.Union_and_intersection",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
             "name": "second_largest",
             "request": "launch",
             "mainClass": "code.Array_problem.second_largest",
