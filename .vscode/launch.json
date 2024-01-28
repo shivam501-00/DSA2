@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "find_num_appears_once",
+            "request": "launch",
+            "mainClass": "code.Array_problem.find_num_appears_once",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
+            "name": "find_missingEle",
+            "request": "launch",
+            "mainClass": "code.Array_problem.find_missingEle",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
+            "name": "patterns",
+            "request": "launch",
+            "mainClass": "code.datastructures.patterns",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
             "name": "Union_and_intersection",
             "request": "launch",
             "mainClass": "code.Array_problem.Union_and_intersection",

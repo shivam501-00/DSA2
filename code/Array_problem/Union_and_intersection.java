@@ -51,7 +51,7 @@ public class Union_and_intersection {
     public static void main(String[] args) {
         int[] a = { 1, 1, 2, 4, 6, 8, 10, 11 };
         int[] b = { 0, 3, 4, 9, 10, 14, 15, 16 };
-        System.out.println("its running....");
+        System.out.print("its running....");
         ArrayList<Integer> ans = InnerUnion_and_intersection.unionofArray(a, b);
         for (Integer e : ans) {
             System.out.println(e + " ");

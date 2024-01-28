@@ -37,7 +37,7 @@ class Accounts {
 public class Access_modifire {
     public static void main(String[] args) {
 
-        Accounts A1 = new Accounts("SHIVAM", "ABDS@123", 5, 6);
+        Accounts A12 = new Accounts("SHIVAM", "ABDS@123", 5, 6);
         Accounts A2 = new Accounts("TUSHAR", "AVCDF@23", 10, 20);
 
     }
