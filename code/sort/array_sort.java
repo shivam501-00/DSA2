@@ -31,13 +31,14 @@ class sort {
     static void selection_sort(int[] a, int n) {
 
         for (int i = 0; i <= n - 2; i++) {
+            // [2,3,1,5,7,6,9,2]
             int min = i;
             // we only run inner for loop to check if any other min values present on right
             // side of array than i.
             for (int j = i; j <= n - 1; j++) {
 
                 if (a[j] < a[min]) {
-                    min = j; // if any value at any j th index is present smaller than min. swap min with it.
+                    min = j; // if any value at any j th index is present smaller than min. set min as it.
                 }
             }
             // swapping nothing else but after checking if there any

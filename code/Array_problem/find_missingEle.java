@@ -4,12 +4,12 @@ import java.util.*;
 
 public class find_missingEle {
     public static void main(String[] args) {
-        int[] nums = { 1, 2, 3, 5 };
+        int[] nums = { 1, 2, 3, 4, 6 };
         int n = nums[nums.length - 1];
         int[] nums1 = { 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1 };
         // System.out.println("Missing element from array is : " +
         // miss_ele.missing(nums, n));
-        System.out.println("Missing element from array is : " + miss_ele.use_hashing(nums, n));
+        System.out.println("Missing element from array is : " + miss_ele.using_xor(nums, n));
         System.out.println("Maximum consicutive 1's are : " + miss_ele.consicutive(nums1));
     }
 }
@@ -55,7 +55,24 @@ class miss_ele {
         return -1;
     }
 
-    // Maximum consicutive 1's
+    // USing xor
+    static int using_xor(int[] nums, int n) {
+        /*
+         * XOR1 will be xoring array element whose element are from index 0 to n-2 as
+         * one element is missing
+         */
+        int xor1 = 0;
+        /* XOR2 will be xoring element 1 to n i.e. 1,2,3,4,5,...,n-1,n */
+        int xor2 = 0;
+        for (int i = 0; i < n - 1; i++) {
+            xor1 = xor1 ^ nums[i];
+            xor2 = xor2 ^ (i + 1);
+        }
+        xor2 = xor2 ^ n;
+        return xor1 ^ xor2;
+    }
+
+    // Maximum consicutive 1's in given array
     static int consicutive(int[] nums) {
         int maxi = 0;
         int cnt = 0;
