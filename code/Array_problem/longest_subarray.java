@@ -10,7 +10,8 @@ public class longest_subarray {
         int[] a = { 1, 2, 1, 3, 1, 1, 1, 1, 3 };
         int n = a.length;
         // System.out.println("Longest subarray with sum 3 " + brute_l_sub(a, 4, n));
-        System.out.println("Longest subarray with sum 3 " + better_l_sub(a, 4, n));
+        // System.out.println("Longest subarray with sum 3 " + better_l_sub(a, 4, n));
+        System.out.println("Longest subarray with sum 3 " + optimal_l_sub(a, 4, n));
 
     }
     // brute approach
@@ -71,4 +72,37 @@ public class longest_subarray {
         return maxlen;
     }
 
+    /* Only for Positive integer */
+    static int optimal_l_sub(int[] a, long k, int n) {
+        long sum = a[0];
+        int maxlen = 0;
+        /* lets use pointer right and left at index 0 of array */
+        int right = 0;
+        int left = 0;
+
+        while (right < n) {
+            /*
+             * Second step: do first step after checking if sum is greater than k,while both
+             * true
+             */
+            while (left <= right && sum > k) {
+                sum -= a[left];
+                left++;
+            }
+            /* Update maxlen */
+            if (sum == k) {
+                maxlen = Math.max(maxlen, right - left + 1);
+            }
+            /*
+             * First step : to shift right by one place and update sum till right is less
+             * than length of array
+             */
+            right++;
+            if (right < n) {
+                sum += a[right];
+            }
+        }
+        return maxlen;
+
+    }
 }
