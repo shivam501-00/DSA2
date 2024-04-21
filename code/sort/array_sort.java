@@ -63,6 +63,7 @@ class sort {
             for (int j = 0; j <= i - 1; j++) {
                 // We run inner loop to check adjucent element and swap them if first is larger
                 // than next
+                // j<= i-1; this is reason we start i =n-1 till 0 and not i=0 till n-1
 
                 if (a[j] > a[j + 1]) {
                     int t = a[j];
