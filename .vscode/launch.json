@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "array_sort",
+            "request": "launch",
+            "mainClass": "code.sort.array_sort",
+            "projectName": "DSA2_855f7aaf"
+        },
+        {
+            "type": "java",
             "name": "longest_subarray",
             "request": "launch",
             "mainClass": "code.Array_problem.longest_subarray",

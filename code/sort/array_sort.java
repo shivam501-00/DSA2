@@ -20,8 +20,8 @@ public class array_sort {
             a[i] = sc.nextInt();
         }
         // sort.selection_sort(a, n);
-        // sort.bubble_sort(a, n);
-        sort.insertion_sort(a, n);
+        sort.bubble_sort(a, n);
+        // sort.insertion_sort(a, n);
 
     }
 
@@ -58,7 +58,7 @@ class sort {
          * elemnt is greater than next element then swap
          */
 
-        for (int i = n - 1; i >= 0; i--) {
+        for (int i = n - 1; i > 0; i--) {
             int swap = 0;// optimization
             for (int j = 0; j <= i - 1; j++) {
                 // We run inner loop to check adjucent element and swap them if first is larger
