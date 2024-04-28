@@ -72,7 +72,7 @@ static void better_sol_yes_or_no(int[] a, int t, int n) {
         index[0] = -1;
         index[1] = -1;
         HashMap<Integer, Integer> mpp = new HashMap<>();
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i <= n - 1; i++) {
             int remaining = t - a[i];
             if (mpp.containsKey(remaining)) {
                 index[0] = i;
