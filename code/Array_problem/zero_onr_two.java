@@ -47,7 +47,7 @@ public class zero_onr_two {
          * 1 for [low]to [mid-1] index, have unordered array from [mid] to [high] and
          * have 2 for [high+1] to n-1 index
          * -- consider mid and low are both at zero th index at start , going forward we
-         * need to check what value at mid index inarray is stored and accordingly shift
+         * need to check what value at mid index in array and accordingly shift
          * that value to its region and increase mid, low or decrease high accordingly.
          * -- (VIMP) as per regions we made in 1st point of this intution, low will
          * always have
