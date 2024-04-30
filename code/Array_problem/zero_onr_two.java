@@ -50,7 +50,8 @@ public class zero_onr_two {
          * need to check what value at mid index in array and accordingly shift
          * that value to its region and increase mid, low or decrease high accordingly.
          * -- (VIMP) as per regions we made in 1st point of this intution, low will
-         * always have
+         * always have 1 mid will always increase unless it has 2 and high will decrease
+         * with it
          * 
          */
         while (mid <= high) {
